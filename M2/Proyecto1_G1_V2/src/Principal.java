@@ -36,11 +36,20 @@ public class Principal {
 		
 		System.out.print("Ingrese su nombre: ");
 		String nombreUsuario = leerTeclado.nextLine(); 
-		System.out.println("Hola " + nombreUsuario);
+//		System.out.println("Hola " + nombreUsuario);
 		
 		// ejercicio 2: pedir apellido y edad
+		System.out.print("Ingrese su apellido: ");
+		String apellidoUsuario = leerTeclado.next();
+		
+		System.out.print("Ingrese su edad: ");
+		int edadUsuario = leerTeclado.nextInt(); // permite leer numero entero
+		
+		System.out.println("Hola " + nombreUsuario + " " + 
+							apellidoUsuario + ", tienes " + 
+							edadUsuario + " años.");
 		
 		
-		
+
 	}
 }
